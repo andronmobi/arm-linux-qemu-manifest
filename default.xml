@@ -19,6 +19,7 @@
 
   <project remote="github" name="andronmobi/arm-linux-qemu-build" revision="master" path="build" groups="dev">
      <copyfile src="scripts/build.sh" dest="build.sh" />
+     <copyfile src="scripts/apply-patches.sh" dest="apply-patches.sh" />
   </project>
   <project remote="github" name="andronmobi/arm-linux-qemu-init" revision="master" path="packages/init" groups="dev"/>
 
